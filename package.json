@@ -1,0 +1,24 @@
+{
+  "name": "cypress-web-project",
+  "version": "1.0.0",
+  "description": "Projeto de automação web de um ecommerce fake para aprendizagem do Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:anarosapedrosa/cypress-test-web.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cypress",
+    "javascript"
+  ],
+  "author": "Ana Pedrosa",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "cypress": "^10.3.1"
+  }
+}
