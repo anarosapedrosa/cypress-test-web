@@ -18,6 +18,9 @@ class SignupPage {
             //Preenche os inputs
             cy.get('input[ng-model="$ctrl.formData.email"]').type(user.email)
             cy.get('input[ng-model="$ctrl.formData.password"]').type(user.password)
+            Cypress.env('email_signin', user.email)
+            Cypress.env('password_signin', user.password)
+
         }
         else if (fieldIsEmpty == "password"){
             //Preenche os inputs
