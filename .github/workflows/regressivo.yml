@@ -1,7 +1,6 @@
 name: Regression Web Tests
 
-on: 
-  [ main ]
+on: [push]
 
 jobs:
 
